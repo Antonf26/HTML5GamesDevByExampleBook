@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ch2.html" />
+    <Content Include="css3transition.css" />
+    <Content Include="images\AK.png" />
+    <Content Include="images\AQ.png" />
+    <Content Include="images\pixel_grid.jpg" />
     <Content Include="pingpong.html" />
     <Content Include="pingpong.js" />
     <Content Include="packages.config" />
@@ -77,6 +82,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -6,7 +6,7 @@
     <title>Ping Pong</title>
     <style>
         #playground {
-            background: #e0ffe0;
+            background: #e0ffe0 url(images/pixel_grid.jpg);
             width: 400px;
             height: 200px;
             position: relative;
@@ -39,6 +39,10 @@
 </head>
 <body>
     <header><h1>ping pong</h1></header>
+    <div id="scoreboard">
+        <div class="score">Player A: <span id="scoreA">0</span> </div>
+        <div class="score">Player B: <span id="scoreB">0</span> </div>
+    </div>
     <div id="game">
         <div id="playground">
             <div id="paddleA" class="paddle"></div>
